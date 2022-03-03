@@ -1,4 +1,4 @@
-const ExpressError = require("./Utilities/ExpressError");
+const ExpressError = require("./utilities/ExpressError");
 const { campgroundSchema, reviewSchema } = require("./schemas");
 const Campground = require("./models/campground");
 const Review = require("./models/review");
